@@ -1,30 +1,23 @@
 ### Hi, I'm Ryan
 
-WSU Cybersecurity, class of 2028. I build agent-operated systems and LLM evaluation harnesses, and I own the requirements and review for every change an agent makes.
+Cybersecurity student at Washington State University (class of 2028). Most of my time goes to coursework. On the side I tinker with a homelab and small projects, mostly to learn how things work and how they break.
 
-#### What I'm building
+#### Side projects
 
-- **Agent-operated homelab** (Python, Linux, Proxmox): I run AI coding agents against real systems behind a quality gate: a change isn't done until there's a real commit and a passing test, with a matrix linking each requirement to its test. *Private, demo on request.*
-- **LLM evaluation harnesses** (Python, llama.cpp): Score local models against ground truth before anything depends on them. A quantized Qwen3-4B hit 18/20 on an announcement-extraction eval at ~9s per item; a commit-replay harness caught a 7B coding model failing 0/10. *Write-up coming.*
-- **Coursework archive with an MCP server** (Python, SQLite, REST): Syncs current-term coursework, full-text search, and 16 read-only tools a coding agent queries directly. Cut API traffic ~4.5x by syncing only the active term. *Private, demo on request.*
+- **Homelab:** a small Proxmox server at home where I run my own services and experiment with AI coding tools and local language models. I am learning a lot about Linux, access control, and keeping credentials out of reach of the tools that run there. *Private.*
+- **Coursework archive:** a Python tool that saves my class materials from Canvas so I can search them later. *Private.*
+- **Family web app:** a small app on the home server my family uses, with separate accounts and permissions. *Private.*
 
-Still developing: deeper systems security, and taking these evals from one-off harnesses toward reusable tooling.
+#### Public work
 
-#### Public work you can read
+- [BARD](https://github.com/BradyZapf/CptS_322_BARD): team project from my software engineering class, with CI, specs, and tests.
+- [course-rag](https://github.com/brenner-ryan/course-rag): a retrieval-augmented chatbot over course materials, built for a class bonus.
+- [python-ci-student-lab](https://github.com/brenner-ryan/python-ci-student-lab): a lab on continuous integration with GitHub Actions.
 
-- [course-rag](https://github.com/brenner-ryan/course-rag): retrieval-augmented generation over course material in Python.
-- [python-ci-student-lab](https://github.com/brenner-ryan/python-ci-student-lab): a Python lab wired for continuous integration.
-- [python-ci-demo-test](https://github.com/brenner-ryan/python-ci-demo-test): a small CI demo showing the test-and-build pipeline.
-- [lab-agile-planning](https://github.com/brenner-ryan/lab-agile-planning): agile planning artifacts from a software engineering lab.
-- [BARD](https://github.com/BradyZapf/CptS_322_BARD): a team software-engineering project with CI, specs, and requirement-to-test traceability (course team repo).
+#### Learning right now
 
-#### Skills
-
-- **Languages:** C++, C, Python, Java, JavaScript
-- **AI & tools:** LLM evaluation, llama.cpp, quantized local inference, MCP, agent harnesses
-- **Systems:** Linux, Git, Proxmox, systemd, FastAPI, SQLite
-- **Practices:** pytest, CI, Agile/Kanban, spec-driven development with quality gates
+C and C++ through coursework, Python on my own, Linux and networking in the homelab, and the basics of security before my security courses start.
 
 #### Contact
 
-[github.com/brenner-ryan](https://github.com/brenner-ryan) · ryan.brenner@wsu.edu
+[LinkedIn](https://www.linkedin.com/in/ryanwbrenner) · ryan.brenner@wsu.edu
